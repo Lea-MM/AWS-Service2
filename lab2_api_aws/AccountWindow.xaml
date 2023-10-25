@@ -1,0 +1,31 @@
+﻿<Window x:Class="lab2_api_aws.AccountWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab2_api_aws"
+        mc:Ignorable="d"
+        Title="AccountWindow" Height="800" Width="1400" Padding="10,10,10,10" Background="#FFFFF2D8" HorizontalAlignment="Center" VerticalAlignment="Center" WindowStyle="ToolWindow" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" >
+    <Grid>
+        <Rectangle HorizontalAlignment="Left" Height="60" Stroke="#FFBCA37F" VerticalAlignment="Top" Width="1400" Fill="#FFBCA37F" Grid.ColumnSpan="2"/>
+        <Button Content="Logout" HorizontalAlignment="Left" Margin="1200,10,0,0" VerticalAlignment="Top" Width="150" Padding="5,5,5,5" FontSize="14" Background="#FF113946" FontWeight="SemiBold" Foreground="White" Click="btnLogout" Height="40"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="35,5,0,0" VerticalAlignment="Top" Width="266" Source="/lab2-logo.png"/>
+
+        <Button
+            Content="Lea-MM 2023" 
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Top" 
+            Background="#FFBCA37F" 
+            BorderBrush="#FFF8F9FA"
+            Foreground="#FF113946" 
+            FontFamily="MS Reference Sans Serif" 
+            FontSize="10" 
+            ClipToBounds="True" Width="1400" Height="30" Click="Button_Click" Margin="0,736,0,0"
+        />
+
+        <Image HorizontalAlignment="Left" Height="32" Margin="830,16,0,0" VerticalAlignment="Top" Width="35" Source="/user.png"/>
+        <TextBlock HorizontalAlignment="Left" Margin="862,24,0,0" TextWrapping="Wrap" Text="Hello Superman (superman@hotmail.com)!" VerticalAlignment="Top" FontFamily="Cascadia Mono SemiBold" FontSize="14" Foreground="#FF113946"/>
+        <Label Content="My Books" HorizontalAlignment="Left" Margin="35,80,0,0" VerticalAlignment="Top" Foreground="#FF113946" FontWeight="Bold" FontFamily="Candara" FontSize="34"/>
+        <Rectangle HorizontalAlignment="Left" Height="5" Margin="199,106,0,0" Stroke="#FF113946" VerticalAlignment="Top" Width="1151" Fill="#FF113946"/>
+    </Grid>
+</Window>
